@@ -1,8 +1,13 @@
 # FISH — Origin IP Discovery Tool
 
+**Current:** [`fish2.py`](fish2.py) — FISH 2.0. Stdlib only. Weighted confirm, TLS with the real name as SNI, no implicit `/24` sweep. Details in [FISH2.md](FISH2.md).
+
+**Previous:** [`fish_scan.py`](fish_scan.py) — FISH 1.1, unchanged.
+
 **Methodology:** Fingerprint → Inspect → Scan → Harvest  
 **Author:** Kai Aizen / [SnailSploit](https://snailsploit.com)  
-**Version:** 1.1.0
+
+The rest of this file is the 1.1 manual. 2.0 behavior is in [FISH2.md](FISH2.md).
 
 ---
 
